@@ -14,7 +14,8 @@ function descuento() {
     console.log(descuento);
     let totalcondescuento = totalsindescuento - descuento;
     console.log(totalcondescuento);
-  } //completar con else
+  } else 
+  console.log("No hay descuento");
 }
 
 boton?.addEventListener("click", descuento);
